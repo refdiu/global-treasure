@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "description": "complete backend roadmap",
+        "status": "todo",
+        "createdAt": "2026-02-23",
+        "updatedAt": null
+    },
+    {
+        "id": 2,
+        "description": "final year project",
+        "status": "todo",
+        "createdAt": "2026-02-23",
+        "updatedAt": null
+    }
+]

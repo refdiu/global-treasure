@@ -1,0 +1,45 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import json
+import datetime
+
+try:
+    if sys.argv[1] == "create":
+
+        task_id = int(input("ID: "))
+        task_desc = str(input("Description: "))
+        
+        ctask = { 
+            "id": task_id, 
+            "description": task_desc, 
+            "status": "todo", 
+            "createdAt": str(datetime.date.today()), 
+            "updatedAt": None 
+        }
+        
+        if os.path.exists("tasks.json"):
+            with open("tasks.json", "r") as f:
+                task = json.load(f)
+        else:
+            task = []
+
+        task.append(ctask)
+        
+        with open("tasks.json", "w") as f:
+            json.dump(task, f, indent=4)
+            
+        print("Task created!")
+        
+    elif sys.argv[1] == "display":
+        task_id = int(input("Enter ID of task: "))
+
+        with open("tasks.json", "r") as f:
+            data = json.load(f)
+
+        print(data[task_id-1])
+    else:
+        raise Exception("Format:\ntassel op id heading")
+except (IndexError, Exception):
+    print("Format:\ntassel op")
