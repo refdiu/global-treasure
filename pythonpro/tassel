@@ -38,7 +38,13 @@ try:
         with open("tasks.json", "r") as f:
             data = json.load(f)
 
-        print(data[task_id-1])
+        for i in range(0, len(data)):
+            disp_id = data[i]["id"]
+            if task_id == disp_id:
+                print(data[i])
+                break
+            else:
+                continue
     else:
         raise Exception("Format:\ntassel op id heading")
 except (IndexError, Exception):
