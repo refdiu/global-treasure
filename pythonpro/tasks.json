@@ -2,15 +2,15 @@
     {
         "id": 1,
         "description": "complete backend roadmap",
-        "status": "todo",
+        "status": "ongoing",
         "createdAt": "2026-02-23",
-        "updatedAt": null
+        "updatedAt": "2026-02-27"
     },
     {
         "id": 2,
         "description": "final year project",
-        "status": "todo",
+        "status": "ongoing",
         "createdAt": "2026-02-23",
-        "updatedAt": null
+        "updatedAt": "2026-02-27"
     }
 ]

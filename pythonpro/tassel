@@ -5,47 +5,82 @@ import sys
 import json
 import datetime
 
-try:
-    if sys.argv[1] == "create":
-
-        task_id = int(input("ID: "))
-        task_desc = str(input("Description: "))
+def create_task():
+    task_id = int(input("ID: "))
+    task_desc = str(input("Description: "))
+                
+    ctask = { 
+        "id": task_id, 
+        "description": task_desc, 
+        "status": "todo", 
+        "createdAt": str(datetime.date.today()), 
+        "updatedAt": None 
+    }
+                
+    if os.path.exists("tasks.json"):
+        with open("tasks.json", "r") as f:
+            task = json.load(f)
+    else:
+        task = []
         
-        ctask = { 
-            "id": task_id, 
-            "description": task_desc, 
-            "status": "todo", 
-            "createdAt": str(datetime.date.today()), 
-            "updatedAt": None 
-        }
-        
-        if os.path.exists("tasks.json"):
-            with open("tasks.json", "r") as f:
-                task = json.load(f)
-        else:
-            task = []
-
         task.append(ctask)
-        
+                
         with open("tasks.json", "w") as f:
             json.dump(task, f, indent=4)
-            
+                    
         print("Task created!")
+    
+def display_single_task():
+    task_id = int(input("Enter ID of task: "))
         
+    with open("tasks.json", "r") as f:
+        data = json.load(f)
+        
+    for i in range(0, len(data)):
+        disp_id = data[i]["id"]
+        if task_id == disp_id:
+            print(data[i])
+            break
+        else:
+            continue
+                
+def display_all_tasks():
+    with open("tasks.json", "r") as f:
+        data = json.load(f)
+                
+    for i in range(0, len(data)):
+        print(data[i])
+    
+def update_task():
+    with open("tasks.json", "r") as f:
+        data = json.load(f)
+        
+    task_id = int(input("Enter ID of task: "))
+        
+    for i in range(0, len(data)):
+        disp_id = data[i]["id"]
+        if task_id == disp_id:
+            new_stat = input("Enter status: ")
+            data[i]["status"] = new_stat
+            data[i]["updatedAt"] = str(datetime.date.today())
+            with open("tasks.json", "w") as f:
+                json.dump(data, f, indent=4)
+            break
+
+
+
+try:
+    if sys.argv[1] == "create":
+        create_task() 
     elif sys.argv[1] == "display":
-        task_id = int(input("Enter ID of task: "))
-
-        with open("tasks.json", "r") as f:
-            data = json.load(f)
-
-        for i in range(0, len(data)):
-            disp_id = data[i]["id"]
-            if task_id == disp_id:
-                print(data[i])
-                break
-            else:
-                continue
+        display_single_task()
+    elif sys.argv[1] == "display-all":
+        display_all_tasks()
+    elif sys.argv[1] == "update":
+        update_task()
     else:
-        raise Exception("Format:\ntassel op id heading")
+        raise Exception("Format:\ntassel op id heading")    
 except (IndexError, Exception):
     print("Format:\ntassel op")
+
+
