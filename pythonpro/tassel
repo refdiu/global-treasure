@@ -67,13 +67,22 @@ def update_task():
                 json.dump(data, f, indent=4)
             break
 
+def disp_done():
+    with open("tasks.json", "r") as f:
+        data = json.load(f)
 
+    for i in range(0, len(data)):
+        if data[i]["status"] == "done":
+            print(data[i])
 
 try:
     if sys.argv[1] == "create":
         create_task() 
     elif sys.argv[1] == "display":
-        display_single_task()
+        if sys.argv[2] == "done":
+            disp_done()
+        else:
+            display_single_task()
     elif sys.argv[1] == "display-all":
         display_all_tasks()
     elif sys.argv[1] == "update":
