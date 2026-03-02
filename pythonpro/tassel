@@ -75,12 +75,34 @@ def disp_done():
         if data[i]["status"] == "done":
             print(data[i])
 
+def disp_not():
+    with open("tasks.json", "r") as f:
+        data = json.load(f)
+
+    for i in range(0, len(data)):
+        if data[i]["status"] == "done":
+            continue
+        else:
+            print(data[i])
+
+def disp_ongoing():
+    with open("tasks.json", "r") as f:
+        data = json.load(f)
+
+    for i in range(0, len(data)):
+        if data[i]["status"] == "ongoing":
+            print(data[i])
+
 try:
     if sys.argv[1] == "create":
         create_task() 
     elif sys.argv[1] == "display":
         if sys.argv[2] == "done":
             disp_done()
+        elif sys.argv[2] == "not-done":
+            disp_not()
+        elif sys.argv[2] == "ongoing":
+            disp_ongoing()
         else:
             display_single_task()
     elif sys.argv[1] == "display-all":
