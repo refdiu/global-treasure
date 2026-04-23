@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+
+from subprocess import call
+import os
+import sys
+import json
+
+
+call(f"curl -s https://api.github.com/users/{sys.argv[1]}/events > activity.json", shell=True)
+
+with open("activity.json", "r") as f:
+    data = json.load(f)
+
+cdat = data[0]
+actor = cdat["actor"]
+ldat = len(data)
+
+print(f"In the last 3 days, the user {actor["login"]} performed {len(data)} commits.\n")
+print("The commits were in the following dates:")
+dates = []
+for i in range(ldat):
+    cdate = data[i]['created_at']
+    if cdate in dates:
+        continue
+    else:
+        dates.append(cdate)
+
+for i in range(len(dates)):
+    print(f"{dates[i]}")
+
+issue_count = 0
+fork_count = 0
+follow_count = 0
+pr_event = 0
+push_event = 0
+for i in range(ldat):
+    datype = data[i]["type"]
+    if datype == "PushEvent":
+        push_event+=1
+    elif datype == "IssuesEvent" or datype == "IssueCommentEvent":
+        issue_count+=1
+    elif datype == "FollowEvent":
+        follow_count+=1
+    elif datype == "ForkEvent" or datype == "ForkApplyEvent":
+        fork_count+=1
+    elif datype == "PullRequestEvent":
+        pr_event+=1
+
+print(f"The user pushed code {push_event} time(s).\nThe user followed {follow_count} people.\nHe also raised {issue_count} issues.\nAlso, he issued {pr_event} PRs.\nLastly, he forked {fork_count} repos.")
+
+

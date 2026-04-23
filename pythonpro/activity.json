@@ -1,0 +1,2206 @@
+[
+  {
+    "id": "10939350287",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 663690,
+      "name": "gregkh/gregkh-linux",
+      "url": "https://api.github.com/repos/gregkh/gregkh-linux"
+    },
+    "payload": {
+      "repository_id": 663690,
+      "push_id": 33231061190,
+      "ref": "refs/heads/master",
+      "head": "8f49e688420a26da920eb6acd188b2ee81e6d915",
+      "before": "4087af5f42fd4ffe9fd3261d45397c17e6e3938f"
+    },
+    "public": true,
+    "created_at": "2026-04-23T08:05:35Z"
+  },
+  {
+    "id": "10900010252",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 663690,
+      "name": "gregkh/gregkh-linux",
+      "url": "https://api.github.com/repos/gregkh/gregkh-linux"
+    },
+    "payload": {
+      "repository_id": 663690,
+      "push_id": 33191786850,
+      "ref": "refs/heads/master",
+      "head": "4087af5f42fd4ffe9fd3261d45397c17e6e3938f",
+      "before": "0192787265a11bb2c96d79bc7ce5c66b33531ad3"
+    },
+    "public": true,
+    "created_at": "2026-04-22T12:08:56Z"
+  },
+  {
+    "id": "10899574804",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 663690,
+      "name": "gregkh/gregkh-linux",
+      "url": "https://api.github.com/repos/gregkh/gregkh-linux"
+    },
+    "payload": {
+      "repository_id": 663690,
+      "push_id": 33191351645,
+      "ref": "refs/heads/master",
+      "head": "0192787265a11bb2c96d79bc7ce5c66b33531ad3",
+      "before": "c42164374a2b90987d0678bf2b653fdb1f32ed89"
+    },
+    "public": true,
+    "created_at": "2026-04-22T11:57:52Z"
+  },
+  {
+    "id": "8669322878",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1158588224,
+      "name": "AlexsJones/llmfit",
+      "url": "https://api.github.com/repos/AlexsJones/llmfit"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 487,
+      "pull_request": {
+        "url": "https://api.github.com/repos/AlexsJones/llmfit/pulls/487",
+        "id": 3565455659,
+        "number": 487,
+        "head": {
+          "ref": "ci_fix",
+          "sha": "51559ed7c8c6413699ff974f70496cbc900cd569",
+          "repo": {
+            "id": 1202741866,
+            "url": "https://api.github.com/repos/gregkh/llmfit",
+            "name": "llmfit"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "319c0fe5b2d0845f1279e4440772be17ed8e1de3",
+          "repo": {
+            "id": 1158588224,
+            "url": "https://api.github.com/repos/AlexsJones/llmfit",
+            "name": "llmfit"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-22T09:44:52Z"
+  },
+  {
+    "id": "8669317404",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1158588224,
+      "name": "AlexsJones/llmfit",
+      "url": "https://api.github.com/repos/AlexsJones/llmfit"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 488,
+      "pull_request": {
+        "url": "https://api.github.com/repos/AlexsJones/llmfit/pulls/488",
+        "id": 3565496679,
+        "number": 488,
+        "head": {
+          "ref": "tmpfile_fixes",
+          "sha": "ba541d5bcbf85f1ce410be27de2b6abf94dc8565",
+          "repo": {
+            "id": 1202741866,
+            "url": "https://api.github.com/repos/gregkh/llmfit",
+            "name": "llmfit"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "319c0fe5b2d0845f1279e4440772be17ed8e1de3",
+          "repo": {
+            "id": 1158588224,
+            "url": "https://api.github.com/repos/AlexsJones/llmfit",
+            "name": "llmfit"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-22T09:44:39Z"
+  },
+  {
+    "id": "8662430465",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1158588224,
+      "name": "AlexsJones/llmfit",
+      "url": "https://api.github.com/repos/AlexsJones/llmfit"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 488,
+      "pull_request": {
+        "url": "https://api.github.com/repos/AlexsJones/llmfit/pulls/488",
+        "id": 3565496679,
+        "number": 488,
+        "head": {
+          "ref": "tmpfile_fixes",
+          "sha": "ba541d5bcbf85f1ce410be27de2b6abf94dc8565",
+          "repo": {
+            "id": 1202741866,
+            "url": "https://api.github.com/repos/gregkh/llmfit",
+            "name": "llmfit"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "319c0fe5b2d0845f1279e4440772be17ed8e1de3",
+          "repo": {
+            "id": 1158588224,
+            "url": "https://api.github.com/repos/AlexsJones/llmfit",
+            "name": "llmfit"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-22T06:04:16Z"
+  },
+  {
+    "id": "10886605860",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1202741866,
+      "name": "gregkh/llmfit",
+      "url": "https://api.github.com/repos/gregkh/llmfit"
+    },
+    "payload": {
+      "ref": "tmpfile_fixes",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/tmpfile_fixes",
+      "master_branch": "main",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-22T06:03:06Z"
+  },
+  {
+    "id": "8662127587",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1158588224,
+      "name": "AlexsJones/llmfit",
+      "url": "https://api.github.com/repos/AlexsJones/llmfit"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 487,
+      "pull_request": {
+        "url": "https://api.github.com/repos/AlexsJones/llmfit/pulls/487",
+        "id": 3565455659,
+        "number": 487,
+        "head": {
+          "ref": "ci_fix",
+          "sha": "51559ed7c8c6413699ff974f70496cbc900cd569",
+          "repo": {
+            "id": 1202741866,
+            "url": "https://api.github.com/repos/gregkh/llmfit",
+            "name": "llmfit"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "319c0fe5b2d0845f1279e4440772be17ed8e1de3",
+          "repo": {
+            "id": 1158588224,
+            "url": "https://api.github.com/repos/AlexsJones/llmfit",
+            "name": "llmfit"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-22T05:53:21Z"
+  },
+  {
+    "id": "10886306946",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1202741866,
+      "name": "gregkh/llmfit",
+      "url": "https://api.github.com/repos/gregkh/llmfit"
+    },
+    "payload": {
+      "ref": "ci_fix",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/ci_fix",
+      "master_branch": "main",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-22T05:53:05Z"
+  },
+  {
+    "id": "10886255246",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1202741866,
+      "name": "gregkh/llmfit",
+      "url": "https://api.github.com/repos/gregkh/llmfit"
+    },
+    "payload": {
+      "repository_id": 1202741866,
+      "push_id": 33178028995,
+      "ref": "refs/heads/main",
+      "head": "319c0fe5b2d0845f1279e4440772be17ed8e1de3",
+      "before": "fd1b233de7f52c4d33592a6a2b511da232e5e7d4"
+    },
+    "public": true,
+    "created_at": "2026-04-22T05:51:09Z"
+  },
+  {
+    "id": "10886243011",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1202741866,
+      "name": "gregkh/llmfit",
+      "url": "https://api.github.com/repos/gregkh/llmfit"
+    },
+    "payload": {
+      "ref": "args-injection",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/args-injection",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-22T05:50:42Z"
+  },
+  {
+    "id": "10886241519",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1202741866,
+      "name": "gregkh/llmfit",
+      "url": "https://api.github.com/repos/gregkh/llmfit"
+    },
+    "payload": {
+      "ref": "bind-localhost",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/bind-localhost",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-22T05:50:39Z"
+  },
+  {
+    "id": "8649453898",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1158588224,
+      "name": "AlexsJones/llmfit",
+      "url": "https://api.github.com/repos/AlexsJones/llmfit"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 329,
+      "pull_request": {
+        "url": "https://api.github.com/repos/AlexsJones/llmfit/pulls/329",
+        "id": 3496129045,
+        "number": 329,
+        "head": {
+          "ref": "args-injection",
+          "sha": "db8d80174c169da2edb8537b8d72e661fc487792",
+          "repo": {
+            "id": 1202741866,
+            "url": "https://api.github.com/repos/gregkh/llmfit",
+            "name": "llmfit"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "fd1b233de7f52c4d33592a6a2b511da232e5e7d4",
+          "repo": {
+            "id": 1158588224,
+            "url": "https://api.github.com/repos/AlexsJones/llmfit",
+            "name": "llmfit"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-21T20:05:43Z"
+  },
+  {
+    "id": "8649443997",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1158588224,
+      "name": "AlexsJones/llmfit",
+      "url": "https://api.github.com/repos/AlexsJones/llmfit"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 330,
+      "pull_request": {
+        "url": "https://api.github.com/repos/AlexsJones/llmfit/pulls/330",
+        "id": 3496133501,
+        "number": 330,
+        "head": {
+          "ref": "bind-localhost",
+          "sha": "972d9b8c1dd9455b834aaf8bcdea75cd2f511636",
+          "repo": {
+            "id": 1202741866,
+            "url": "https://api.github.com/repos/gregkh/llmfit",
+            "name": "llmfit"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "fd1b233de7f52c4d33592a6a2b511da232e5e7d4",
+          "repo": {
+            "id": 1158588224,
+            "url": "https://api.github.com/repos/AlexsJones/llmfit",
+            "name": "llmfit"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-21T20:05:23Z"
+  },
+  {
+    "id": "10798567684",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 663690,
+      "name": "gregkh/gregkh-linux",
+      "url": "https://api.github.com/repos/gregkh/gregkh-linux"
+    },
+    "payload": {
+      "repository_id": 663690,
+      "push_id": 33090403420,
+      "ref": "refs/heads/master",
+      "head": "c42164374a2b90987d0678bf2b653fdb1f32ed89",
+      "before": "28d2df3c8d6a1c62ca888077de7f6ffcaacde714"
+    },
+    "public": true,
+    "created_at": "2026-04-20T09:57:10Z"
+  },
+  {
+    "id": "10796450588",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 188048729,
+      "name": "gregkh/linux",
+      "url": "https://api.github.com/repos/gregkh/linux"
+    },
+    "payload": {
+      "repository_id": 188048729,
+      "push_id": 33088295485,
+      "ref": "refs/heads/master",
+      "head": "c1f49dea2b8f335813d3b348fd39117fb8efb428",
+      "before": "faeab166167f5787719eb8683661fd41a3bb1514"
+    },
+    "public": true,
+    "created_at": "2026-04-20T09:02:42Z"
+  },
+  {
+    "id": "8571354552",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 20580498,
+      "name": "kubernetes/kubernetes",
+      "url": "https://api.github.com/repos/kubernetes/kubernetes"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382",
+        "repository_url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "labels_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/comments",
+        "events_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/events",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138382",
+        "id": 4263533795,
+        "node_id": "PR_kwDOAToIks7SYN6S",
+        "number": 138382,
+        "title": "devicemanager: reject device plugin endpoints that escape the socket …",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 105146071,
+            "node_id": "MDU6TGFiZWwxMDUxNDYwNzE=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/kind/bug",
+            "name": "kind/bug",
+            "color": "e11d21",
+            "default": false,
+            "description": "Categorizes issue or PR as related to a bug."
+          },
+          {
+            "id": 114528223,
+            "node_id": "MDU6TGFiZWwxMTQ1MjgyMjM=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/priority/important-soon",
+            "name": "priority/important-soon",
+            "color": "eb6420",
+            "default": false,
+            "description": "Must be staffed and worked on either currently, or very soon, ideally in time for the next release."
+          },
+          {
+            "id": 116719829,
+            "node_id": "MDU6TGFiZWwxMTY3MTk4Mjk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/area/kubelet",
+            "name": "area/kubelet",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 173493665,
+            "node_id": "MDU6TGFiZWwxNzM0OTM2NjU=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/sig/node",
+            "name": "sig/node",
+            "color": "d2b48c",
+            "default": false,
+            "description": "Categorizes an issue or PR as relevant to SIG Node."
+          },
+          {
+            "id": 253450934,
+            "node_id": "MDU6TGFiZWwyNTM0NTA5MzQ=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/size/M",
+            "name": "size/M",
+            "color": "eebb00",
+            "default": false,
+            "description": "Denotes a PR that changes 30-99 lines, ignoring generated files."
+          },
+          {
+            "id": 349530249,
+            "node_id": "MDU6TGFiZWwzNDk1MzAyNDk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/release-note-none",
+            "name": "release-note-none",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Denotes a PR that doesn't merit a release note."
+          },
+          {
+            "id": 477397086,
+            "node_id": "MDU6TGFiZWw0NzczOTcwODY=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/cncf-cla:%20yes",
+            "name": "cncf-cla: yes",
+            "color": "bfe5bf",
+            "default": false,
+            "description": "Indicates the PR's author has signed the CNCF CLA."
+          },
+          {
+            "id": 1086787260,
+            "node_id": "MDU6TGFiZWwxMDg2Nzg3MjYw",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/ok-to-test",
+            "name": "ok-to-test",
+            "color": "15dd18",
+            "default": false,
+            "description": "Indicates a non-member PR verified by an org member that is safe to test."
+          },
+          {
+            "id": 2389856656,
+            "node_id": "MDU6TGFiZWwyMzg5ODU2NjU2",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/triage/accepted",
+            "name": "triage/accepted",
+            "color": "8fc951",
+            "default": false,
+            "description": "Indicates an issue or PR is ready to be actively worked on."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "haircommander",
+            "id": 9082919,
+            "node_id": "MDQ6VXNlcjkwODI5MTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9082919?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haircommander",
+            "html_url": "https://github.com/haircommander",
+            "followers_url": "https://api.github.com/users/haircommander/followers",
+            "following_url": "https://api.github.com/users/haircommander/following{/other_user}",
+            "gists_url": "https://api.github.com/users/haircommander/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/haircommander/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/haircommander/subscriptions",
+            "organizations_url": "https://api.github.com/users/haircommander/orgs",
+            "repos_url": "https://api.github.com/users/haircommander/repos",
+            "events_url": "https://api.github.com/users/haircommander/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/haircommander/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          {
+            "login": "SergeyKanzhelev",
+            "id": 9950081,
+            "node_id": "MDQ6VXNlcjk5NTAwODE=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9950081?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SergeyKanzhelev",
+            "html_url": "https://github.com/SergeyKanzhelev",
+            "followers_url": "https://api.github.com/users/SergeyKanzhelev/followers",
+            "following_url": "https://api.github.com/users/SergeyKanzhelev/following{/other_user}",
+            "gists_url": "https://api.github.com/users/SergeyKanzhelev/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/SergeyKanzhelev/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/SergeyKanzhelev/subscriptions",
+            "organizations_url": "https://api.github.com/users/SergeyKanzhelev/orgs",
+            "repos_url": "https://api.github.com/users/SergeyKanzhelev/repos",
+            "events_url": "https://api.github.com/users/SergeyKanzhelev/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/SergeyKanzhelev/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 11,
+        "created_at": "2026-04-14T16:45:41Z",
+        "updated_at": "2026-04-19T15:07:36Z",
+        "closed_at": null,
+        "assignee": {
+          "login": "haircommander",
+          "id": 9082919,
+          "node_id": "MDQ6VXNlcjkwODI5MTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9082919?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/haircommander",
+          "html_url": "https://github.com/haircommander",
+          "followers_url": "https://api.github.com/users/haircommander/followers",
+          "following_url": "https://api.github.com/users/haircommander/following{/other_user}",
+          "gists_url": "https://api.github.com/users/haircommander/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/haircommander/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/haircommander/subscriptions",
+          "organizations_url": "https://api.github.com/users/haircommander/orgs",
+          "repos_url": "https://api.github.com/users/haircommander/repos",
+          "events_url": "https://api.github.com/users/haircommander/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/haircommander/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/pulls/138382",
+          "html_url": "https://github.com/kubernetes/kubernetes/pull/138382",
+          "diff_url": "https://github.com/kubernetes/kubernetes/pull/138382.diff",
+          "patch_url": "https://github.com/kubernetes/kubernetes/pull/138382.patch",
+          "merged_at": null
+        },
+        "body": "…directory\r\n\r\nThe legacy v1beta1 device plugin Register RPC accepts an Endpoint field documented as \"Name of the unix socket the device plugin is listening on\", which kubelet joins under the device-plugin socket directory before dialling back.  The endpoint was passed to filepath.Join without bounds checking, so an endpoint like \"../../../../tmp/foo.sock\" resolved to a path outside the device-plugin directory.\r\n\r\nUnder the documented trust model, anything that can connect to the registration socket (which lives in a 0750 root-owned directory) is already a trusted device plugin and could simply be a malicious gRPC server on its own socket.  The traversal does not cross a privilege boundary today.\r\n\r\nEnforce the documented contract anyway: the joined path's directory must equal the cleaned socket directory.  This rejects parent-directory traversal, subdirectory paths, and the empty endpoint, all of which are outside the API's documented semantics.\r\n\r\n/kind bug\r\n\r\n```release-note\r\nNONE\r\n```\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4276128000",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138382#issuecomment-4276128000",
+        "issue_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382",
+        "id": 4276128000,
+        "node_id": "IC_kwDOAToIks7-4IkA",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-19T14:37:33Z",
+        "updated_at": "2026-04-19T14:37:33Z",
+        "body": "doh, didn't push the update...\r\n\r\n\r\n/retest\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4276128000/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-19T14:37:33Z",
+    "org": {
+      "id": 13629408,
+      "login": "kubernetes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kubernetes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13629408?"
+    }
+  },
+  {
+    "id": "10770583570",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1210659981,
+      "name": "gregkh/kubernetes",
+      "url": "https://api.github.com/repos/gregkh/kubernetes"
+    },
+    "payload": {
+      "repository_id": 1210659981,
+      "push_id": 33062409574,
+      "ref": "refs/heads/v1beta1-device-manager-reject-endpoints",
+      "head": "17fe5c5a4c47188d8d784e39e7daca3aa96efbff",
+      "before": "326a75d66b0e89255d33e86a81983afc9bfb4fcc"
+    },
+    "public": true,
+    "created_at": "2026-04-19T14:37:11Z"
+  },
+  {
+    "id": "8570816411",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 20580498,
+      "name": "kubernetes/kubernetes",
+      "url": "https://api.github.com/repos/kubernetes/kubernetes"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382",
+        "repository_url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "labels_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/comments",
+        "events_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/events",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138382",
+        "id": 4263533795,
+        "node_id": "PR_kwDOAToIks7SYN6S",
+        "number": 138382,
+        "title": "devicemanager: reject device plugin endpoints that escape the socket …",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 105146071,
+            "node_id": "MDU6TGFiZWwxMDUxNDYwNzE=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/kind/bug",
+            "name": "kind/bug",
+            "color": "e11d21",
+            "default": false,
+            "description": "Categorizes issue or PR as related to a bug."
+          },
+          {
+            "id": 114528223,
+            "node_id": "MDU6TGFiZWwxMTQ1MjgyMjM=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/priority/important-soon",
+            "name": "priority/important-soon",
+            "color": "eb6420",
+            "default": false,
+            "description": "Must be staffed and worked on either currently, or very soon, ideally in time for the next release."
+          },
+          {
+            "id": 116719829,
+            "node_id": "MDU6TGFiZWwxMTY3MTk4Mjk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/area/kubelet",
+            "name": "area/kubelet",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 173493665,
+            "node_id": "MDU6TGFiZWwxNzM0OTM2NjU=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/sig/node",
+            "name": "sig/node",
+            "color": "d2b48c",
+            "default": false,
+            "description": "Categorizes an issue or PR as relevant to SIG Node."
+          },
+          {
+            "id": 253450934,
+            "node_id": "MDU6TGFiZWwyNTM0NTA5MzQ=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/size/M",
+            "name": "size/M",
+            "color": "eebb00",
+            "default": false,
+            "description": "Denotes a PR that changes 30-99 lines, ignoring generated files."
+          },
+          {
+            "id": 349530249,
+            "node_id": "MDU6TGFiZWwzNDk1MzAyNDk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/release-note-none",
+            "name": "release-note-none",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Denotes a PR that doesn't merit a release note."
+          },
+          {
+            "id": 477397086,
+            "node_id": "MDU6TGFiZWw0NzczOTcwODY=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/cncf-cla:%20yes",
+            "name": "cncf-cla: yes",
+            "color": "bfe5bf",
+            "default": false,
+            "description": "Indicates the PR's author has signed the CNCF CLA."
+          },
+          {
+            "id": 1086787260,
+            "node_id": "MDU6TGFiZWwxMDg2Nzg3MjYw",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/ok-to-test",
+            "name": "ok-to-test",
+            "color": "15dd18",
+            "default": false,
+            "description": "Indicates a non-member PR verified by an org member that is safe to test."
+          },
+          {
+            "id": 2389856656,
+            "node_id": "MDU6TGFiZWwyMzg5ODU2NjU2",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/triage/accepted",
+            "name": "triage/accepted",
+            "color": "8fc951",
+            "default": false,
+            "description": "Indicates an issue or PR is ready to be actively worked on."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "haircommander",
+            "id": 9082919,
+            "node_id": "MDQ6VXNlcjkwODI5MTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9082919?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haircommander",
+            "html_url": "https://github.com/haircommander",
+            "followers_url": "https://api.github.com/users/haircommander/followers",
+            "following_url": "https://api.github.com/users/haircommander/following{/other_user}",
+            "gists_url": "https://api.github.com/users/haircommander/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/haircommander/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/haircommander/subscriptions",
+            "organizations_url": "https://api.github.com/users/haircommander/orgs",
+            "repos_url": "https://api.github.com/users/haircommander/repos",
+            "events_url": "https://api.github.com/users/haircommander/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/haircommander/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          {
+            "login": "SergeyKanzhelev",
+            "id": 9950081,
+            "node_id": "MDQ6VXNlcjk5NTAwODE=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9950081?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SergeyKanzhelev",
+            "html_url": "https://github.com/SergeyKanzhelev",
+            "followers_url": "https://api.github.com/users/SergeyKanzhelev/followers",
+            "following_url": "https://api.github.com/users/SergeyKanzhelev/following{/other_user}",
+            "gists_url": "https://api.github.com/users/SergeyKanzhelev/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/SergeyKanzhelev/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/SergeyKanzhelev/subscriptions",
+            "organizations_url": "https://api.github.com/users/SergeyKanzhelev/orgs",
+            "repos_url": "https://api.github.com/users/SergeyKanzhelev/repos",
+            "events_url": "https://api.github.com/users/SergeyKanzhelev/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/SergeyKanzhelev/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 11,
+        "created_at": "2026-04-14T16:45:41Z",
+        "updated_at": "2026-04-19T15:07:36Z",
+        "closed_at": null,
+        "assignee": {
+          "login": "haircommander",
+          "id": 9082919,
+          "node_id": "MDQ6VXNlcjkwODI5MTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9082919?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/haircommander",
+          "html_url": "https://github.com/haircommander",
+          "followers_url": "https://api.github.com/users/haircommander/followers",
+          "following_url": "https://api.github.com/users/haircommander/following{/other_user}",
+          "gists_url": "https://api.github.com/users/haircommander/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/haircommander/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/haircommander/subscriptions",
+          "organizations_url": "https://api.github.com/users/haircommander/orgs",
+          "repos_url": "https://api.github.com/users/haircommander/repos",
+          "events_url": "https://api.github.com/users/haircommander/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/haircommander/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/pulls/138382",
+          "html_url": "https://github.com/kubernetes/kubernetes/pull/138382",
+          "diff_url": "https://github.com/kubernetes/kubernetes/pull/138382.diff",
+          "patch_url": "https://github.com/kubernetes/kubernetes/pull/138382.patch",
+          "merged_at": null
+        },
+        "body": "…directory\r\n\r\nThe legacy v1beta1 device plugin Register RPC accepts an Endpoint field documented as \"Name of the unix socket the device plugin is listening on\", which kubelet joins under the device-plugin socket directory before dialling back.  The endpoint was passed to filepath.Join without bounds checking, so an endpoint like \"../../../../tmp/foo.sock\" resolved to a path outside the device-plugin directory.\r\n\r\nUnder the documented trust model, anything that can connect to the registration socket (which lives in a 0750 root-owned directory) is already a trusted device plugin and could simply be a malicious gRPC server on its own socket.  The traversal does not cross a privilege boundary today.\r\n\r\nEnforce the documented contract anyway: the joined path's directory must equal the cleaned socket directory.  This rejects parent-directory traversal, subdirectory paths, and the empty endpoint, all of which are outside the API's documented semantics.\r\n\r\n/kind bug\r\n\r\n```release-note\r\nNONE\r\n```\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4276047223",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138382#issuecomment-4276047223",
+        "issue_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382",
+        "id": 4276047223,
+        "node_id": "IC_kwDOAToIks7-3013",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-19T13:53:54Z",
+        "updated_at": "2026-04-19T13:53:54Z",
+        "body": "/retest",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4276047223/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-19T13:53:54Z",
+    "org": {
+      "id": 13629408,
+      "login": "kubernetes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kubernetes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13629408?"
+    }
+  },
+  {
+    "id": "10769601802",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1210659981,
+      "name": "gregkh/kubernetes",
+      "url": "https://api.github.com/repos/gregkh/kubernetes"
+    },
+    "payload": {
+      "repository_id": 1210659981,
+      "push_id": 33061429100,
+      "ref": "refs/heads/v1beta1-device-manager-reject-endpoints",
+      "head": "326a75d66b0e89255d33e86a81983afc9bfb4fcc",
+      "before": "d6f83552244c62bfbbc9a46a606d045fa2ade971"
+    },
+    "public": true,
+    "created_at": "2026-04-19T13:53:13Z"
+  },
+  {
+    "id": "8568192267",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 20580498,
+      "name": "kubernetes/kubernetes",
+      "url": "https://api.github.com/repos/kubernetes/kubernetes"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382",
+        "repository_url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "labels_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/comments",
+        "events_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/events",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138382",
+        "id": 4263533795,
+        "node_id": "PR_kwDOAToIks7SYN6S",
+        "number": 138382,
+        "title": "devicemanager: reject device plugin endpoints that escape the socket …",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 105146071,
+            "node_id": "MDU6TGFiZWwxMDUxNDYwNzE=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/kind/bug",
+            "name": "kind/bug",
+            "color": "e11d21",
+            "default": false,
+            "description": "Categorizes issue or PR as related to a bug."
+          },
+          {
+            "id": 114528223,
+            "node_id": "MDU6TGFiZWwxMTQ1MjgyMjM=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/priority/important-soon",
+            "name": "priority/important-soon",
+            "color": "eb6420",
+            "default": false,
+            "description": "Must be staffed and worked on either currently, or very soon, ideally in time for the next release."
+          },
+          {
+            "id": 116719829,
+            "node_id": "MDU6TGFiZWwxMTY3MTk4Mjk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/area/kubelet",
+            "name": "area/kubelet",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 173493665,
+            "node_id": "MDU6TGFiZWwxNzM0OTM2NjU=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/sig/node",
+            "name": "sig/node",
+            "color": "d2b48c",
+            "default": false,
+            "description": "Categorizes an issue or PR as relevant to SIG Node."
+          },
+          {
+            "id": 253450934,
+            "node_id": "MDU6TGFiZWwyNTM0NTA5MzQ=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/size/M",
+            "name": "size/M",
+            "color": "eebb00",
+            "default": false,
+            "description": "Denotes a PR that changes 30-99 lines, ignoring generated files."
+          },
+          {
+            "id": 349530249,
+            "node_id": "MDU6TGFiZWwzNDk1MzAyNDk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/release-note-none",
+            "name": "release-note-none",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Denotes a PR that doesn't merit a release note."
+          },
+          {
+            "id": 477397086,
+            "node_id": "MDU6TGFiZWw0NzczOTcwODY=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/cncf-cla:%20yes",
+            "name": "cncf-cla: yes",
+            "color": "bfe5bf",
+            "default": false,
+            "description": "Indicates the PR's author has signed the CNCF CLA."
+          },
+          {
+            "id": 1086787260,
+            "node_id": "MDU6TGFiZWwxMDg2Nzg3MjYw",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/ok-to-test",
+            "name": "ok-to-test",
+            "color": "15dd18",
+            "default": false,
+            "description": "Indicates a non-member PR verified by an org member that is safe to test."
+          },
+          {
+            "id": 2389856656,
+            "node_id": "MDU6TGFiZWwyMzg5ODU2NjU2",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/triage/accepted",
+            "name": "triage/accepted",
+            "color": "8fc951",
+            "default": false,
+            "description": "Indicates an issue or PR is ready to be actively worked on."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "haircommander",
+            "id": 9082919,
+            "node_id": "MDQ6VXNlcjkwODI5MTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9082919?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haircommander",
+            "html_url": "https://github.com/haircommander",
+            "followers_url": "https://api.github.com/users/haircommander/followers",
+            "following_url": "https://api.github.com/users/haircommander/following{/other_user}",
+            "gists_url": "https://api.github.com/users/haircommander/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/haircommander/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/haircommander/subscriptions",
+            "organizations_url": "https://api.github.com/users/haircommander/orgs",
+            "repos_url": "https://api.github.com/users/haircommander/repos",
+            "events_url": "https://api.github.com/users/haircommander/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/haircommander/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          {
+            "login": "SergeyKanzhelev",
+            "id": 9950081,
+            "node_id": "MDQ6VXNlcjk5NTAwODE=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9950081?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SergeyKanzhelev",
+            "html_url": "https://github.com/SergeyKanzhelev",
+            "followers_url": "https://api.github.com/users/SergeyKanzhelev/followers",
+            "following_url": "https://api.github.com/users/SergeyKanzhelev/following{/other_user}",
+            "gists_url": "https://api.github.com/users/SergeyKanzhelev/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/SergeyKanzhelev/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/SergeyKanzhelev/subscriptions",
+            "organizations_url": "https://api.github.com/users/SergeyKanzhelev/orgs",
+            "repos_url": "https://api.github.com/users/SergeyKanzhelev/repos",
+            "events_url": "https://api.github.com/users/SergeyKanzhelev/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/SergeyKanzhelev/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 11,
+        "created_at": "2026-04-14T16:45:41Z",
+        "updated_at": "2026-04-19T15:07:36Z",
+        "closed_at": null,
+        "assignee": {
+          "login": "haircommander",
+          "id": 9082919,
+          "node_id": "MDQ6VXNlcjkwODI5MTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9082919?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/haircommander",
+          "html_url": "https://github.com/haircommander",
+          "followers_url": "https://api.github.com/users/haircommander/followers",
+          "following_url": "https://api.github.com/users/haircommander/following{/other_user}",
+          "gists_url": "https://api.github.com/users/haircommander/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/haircommander/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/haircommander/subscriptions",
+          "organizations_url": "https://api.github.com/users/haircommander/orgs",
+          "repos_url": "https://api.github.com/users/haircommander/repos",
+          "events_url": "https://api.github.com/users/haircommander/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/haircommander/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/pulls/138382",
+          "html_url": "https://github.com/kubernetes/kubernetes/pull/138382",
+          "diff_url": "https://github.com/kubernetes/kubernetes/pull/138382.diff",
+          "patch_url": "https://github.com/kubernetes/kubernetes/pull/138382.patch",
+          "merged_at": null
+        },
+        "body": "…directory\r\n\r\nThe legacy v1beta1 device plugin Register RPC accepts an Endpoint field documented as \"Name of the unix socket the device plugin is listening on\", which kubelet joins under the device-plugin socket directory before dialling back.  The endpoint was passed to filepath.Join without bounds checking, so an endpoint like \"../../../../tmp/foo.sock\" resolved to a path outside the device-plugin directory.\r\n\r\nUnder the documented trust model, anything that can connect to the registration socket (which lives in a 0750 root-owned directory) is already a trusted device plugin and could simply be a malicious gRPC server on its own socket.  The traversal does not cross a privilege boundary today.\r\n\r\nEnforce the documented contract anyway: the joined path's directory must equal the cleaned socket directory.  This rejects parent-directory traversal, subdirectory paths, and the empty endpoint, all of which are outside the API's documented semantics.\r\n\r\n/kind bug\r\n\r\n```release-note\r\nNONE\r\n```\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4275634082",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138382#issuecomment-4275634082",
+        "issue_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138382",
+        "id": 4275634082,
+        "node_id": "IC_kwDOAToIks7-2P-i",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-19T09:48:20Z",
+        "updated_at": "2026-04-19T09:48:20Z",
+        "body": "A new unit test was added.  If this should be in an existing file, please let me know as I didn't see one (but I probably missed it.)",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4275634082/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:48:20Z",
+    "org": {
+      "id": 13629408,
+      "login": "kubernetes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kubernetes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13629408?"
+    }
+  },
+  {
+    "id": "10764599173",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1210659981,
+      "name": "gregkh/kubernetes",
+      "url": "https://api.github.com/repos/gregkh/kubernetes"
+    },
+    "payload": {
+      "repository_id": 1210659981,
+      "push_id": 33056435981,
+      "ref": "refs/heads/v1beta1-device-manager-reject-endpoints",
+      "head": "d6f83552244c62bfbbc9a46a606d045fa2ade971",
+      "before": "3e762b800c7af23f30f043466e3c3221544f726c"
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:47:37Z"
+  },
+  {
+    "id": "8568147382",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 20580498,
+      "name": "kubernetes/kubernetes",
+      "url": "https://api.github.com/repos/kubernetes/kubernetes"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379",
+        "repository_url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "labels_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/comments",
+        "events_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/events",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138379",
+        "id": 4263492024,
+        "node_id": "PR_kwDOAToIks7SYFOo",
+        "number": 138379,
+        "title": "kubelet: reject empty log path in container log Clean()",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 105146071,
+            "node_id": "MDU6TGFiZWwxMDUxNDYwNzE=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/kind/bug",
+            "name": "kind/bug",
+            "color": "e11d21",
+            "default": false,
+            "description": "Categorizes issue or PR as related to a bug."
+          },
+          {
+            "id": 114528223,
+            "node_id": "MDU6TGFiZWwxMTQ1MjgyMjM=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/priority/important-soon",
+            "name": "priority/important-soon",
+            "color": "eb6420",
+            "default": false,
+            "description": "Must be staffed and worked on either currently, or very soon, ideally in time for the next release."
+          },
+          {
+            "id": 116719829,
+            "node_id": "MDU6TGFiZWwxMTY3MTk4Mjk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/area/kubelet",
+            "name": "area/kubelet",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 173493665,
+            "node_id": "MDU6TGFiZWwxNzM0OTM2NjU=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/sig/node",
+            "name": "sig/node",
+            "color": "d2b48c",
+            "default": false,
+            "description": "Categorizes an issue or PR as relevant to SIG Node."
+          },
+          {
+            "id": 253450934,
+            "node_id": "MDU6TGFiZWwyNTM0NTA5MzQ=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/size/M",
+            "name": "size/M",
+            "color": "eebb00",
+            "default": false,
+            "description": "Denotes a PR that changes 30-99 lines, ignoring generated files."
+          },
+          {
+            "id": 349530249,
+            "node_id": "MDU6TGFiZWwzNDk1MzAyNDk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/release-note-none",
+            "name": "release-note-none",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Denotes a PR that doesn't merit a release note."
+          },
+          {
+            "id": 477397086,
+            "node_id": "MDU6TGFiZWw0NzczOTcwODY=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/cncf-cla:%20yes",
+            "name": "cncf-cla: yes",
+            "color": "bfe5bf",
+            "default": false,
+            "description": "Indicates the PR's author has signed the CNCF CLA."
+          },
+          {
+            "id": 1086787260,
+            "node_id": "MDU6TGFiZWwxMDg2Nzg3MjYw",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/ok-to-test",
+            "name": "ok-to-test",
+            "color": "15dd18",
+            "default": false,
+            "description": "Indicates a non-member PR verified by an org member that is safe to test."
+          },
+          {
+            "id": 2389856656,
+            "node_id": "MDU6TGFiZWwyMzg5ODU2NjU2",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/triage/accepted",
+            "name": "triage/accepted",
+            "color": "8fc951",
+            "default": false,
+            "description": "Indicates an issue or PR is ready to be actively worked on."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 9,
+        "created_at": "2026-04-14T16:36:45Z",
+        "updated_at": "2026-04-19T10:13:01Z",
+        "closed_at": null,
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/pulls/138379",
+          "html_url": "https://github.com/kubernetes/kubernetes/pull/138379",
+          "diff_url": "https://github.com/kubernetes/kubernetes/pull/138379.diff",
+          "patch_url": "https://github.com/kubernetes/kubernetes/pull/138379.patch",
+          "merged_at": null
+        },
+        "body": "The Clean() method in containerLogManager constructs a glob pattern directly from the LogPath returned by the CRI runtime's ContainerStatus response.  If the runtime returns an empty LogPath (the protobuf default for an unset string field, or as a result of a runtime bug or race during container creation), the resulting pattern is \"*\", which matches every file in the kubelet's working directory.  Each match is then passed to Remove() which would not be a good idea to have happen.\r\n\r\nReject an empty LogPath before constructing the glob pattern.  The sibling processContainer() path is naturally guarded by Stat(\"\") returning ENOENT before reaching rotateLog().\r\n\r\n\r\n\r\n/kind bug\r\n```release-note\r\nNONE\r\n```\r\n\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4275627455",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138379#issuecomment-4275627455",
+        "issue_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379",
+        "id": 4275627455,
+        "node_id": "IC_kwDOAToIks7-2OW_",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-19T09:44:04Z",
+        "updated_at": "2026-04-19T09:44:04Z",
+        "body": "/retest-required",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4275627455/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:44:04Z",
+    "org": {
+      "id": 13629408,
+      "login": "kubernetes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kubernetes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13629408?"
+    }
+  },
+  {
+    "id": "10764524558",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1210659981,
+      "name": "gregkh/kubernetes",
+      "url": "https://api.github.com/repos/gregkh/kubernetes"
+    },
+    "payload": {
+      "repository_id": 1210659981,
+      "push_id": 33056361115,
+      "ref": "refs/heads/kubelet-empty-log-path-fix",
+      "head": "94aac66b26e11e442823c5e65e09001989c0a9ad",
+      "before": "89ceb3647cace659ad38029d01f68c510619c3cd"
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:43:28Z"
+  },
+  {
+    "id": "8568036365",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 20580498,
+      "name": "kubernetes/kubernetes",
+      "url": "https://api.github.com/repos/kubernetes/kubernetes"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379",
+        "repository_url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "labels_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/comments",
+        "events_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/events",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138379",
+        "id": 4263492024,
+        "node_id": "PR_kwDOAToIks7SYFOo",
+        "number": 138379,
+        "title": "kubelet: reject empty log path in container log Clean()",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 105146071,
+            "node_id": "MDU6TGFiZWwxMDUxNDYwNzE=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/kind/bug",
+            "name": "kind/bug",
+            "color": "e11d21",
+            "default": false,
+            "description": "Categorizes issue or PR as related to a bug."
+          },
+          {
+            "id": 114528223,
+            "node_id": "MDU6TGFiZWwxMTQ1MjgyMjM=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/priority/important-soon",
+            "name": "priority/important-soon",
+            "color": "eb6420",
+            "default": false,
+            "description": "Must be staffed and worked on either currently, or very soon, ideally in time for the next release."
+          },
+          {
+            "id": 116719829,
+            "node_id": "MDU6TGFiZWwxMTY3MTk4Mjk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/area/kubelet",
+            "name": "area/kubelet",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 173493665,
+            "node_id": "MDU6TGFiZWwxNzM0OTM2NjU=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/sig/node",
+            "name": "sig/node",
+            "color": "d2b48c",
+            "default": false,
+            "description": "Categorizes an issue or PR as relevant to SIG Node."
+          },
+          {
+            "id": 253450934,
+            "node_id": "MDU6TGFiZWwyNTM0NTA5MzQ=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/size/M",
+            "name": "size/M",
+            "color": "eebb00",
+            "default": false,
+            "description": "Denotes a PR that changes 30-99 lines, ignoring generated files."
+          },
+          {
+            "id": 349530249,
+            "node_id": "MDU6TGFiZWwzNDk1MzAyNDk=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/release-note-none",
+            "name": "release-note-none",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Denotes a PR that doesn't merit a release note."
+          },
+          {
+            "id": 477397086,
+            "node_id": "MDU6TGFiZWw0NzczOTcwODY=",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/cncf-cla:%20yes",
+            "name": "cncf-cla: yes",
+            "color": "bfe5bf",
+            "default": false,
+            "description": "Indicates the PR's author has signed the CNCF CLA."
+          },
+          {
+            "id": 1086787260,
+            "node_id": "MDU6TGFiZWwxMDg2Nzg3MjYw",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/ok-to-test",
+            "name": "ok-to-test",
+            "color": "15dd18",
+            "default": false,
+            "description": "Indicates a non-member PR verified by an org member that is safe to test."
+          },
+          {
+            "id": 2389856656,
+            "node_id": "MDU6TGFiZWwyMzg5ODU2NjU2",
+            "url": "https://api.github.com/repos/kubernetes/kubernetes/labels/triage/accepted",
+            "name": "triage/accepted",
+            "color": "8fc951",
+            "default": false,
+            "description": "Indicates an issue or PR is ready to be actively worked on."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 9,
+        "created_at": "2026-04-14T16:36:45Z",
+        "updated_at": "2026-04-19T10:13:01Z",
+        "closed_at": null,
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/pulls/138379",
+          "html_url": "https://github.com/kubernetes/kubernetes/pull/138379",
+          "diff_url": "https://github.com/kubernetes/kubernetes/pull/138379.diff",
+          "patch_url": "https://github.com/kubernetes/kubernetes/pull/138379.patch",
+          "merged_at": null
+        },
+        "body": "The Clean() method in containerLogManager constructs a glob pattern directly from the LogPath returned by the CRI runtime's ContainerStatus response.  If the runtime returns an empty LogPath (the protobuf default for an unset string field, or as a result of a runtime bug or race during container creation), the resulting pattern is \"*\", which matches every file in the kubelet's working directory.  Each match is then passed to Remove() which would not be a good idea to have happen.\r\n\r\nReject an empty LogPath before constructing the glob pattern.  The sibling processContainer() path is naturally guarded by Stat(\"\") returning ENOENT before reaching rotateLog().\r\n\r\n\r\n\r\n/kind bug\r\n```release-note\r\nNONE\r\n```\r\n\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4275611256",
+        "html_url": "https://github.com/kubernetes/kubernetes/pull/138379#issuecomment-4275611256",
+        "issue_url": "https://api.github.com/repos/kubernetes/kubernetes/issues/138379",
+        "id": 4275611256,
+        "node_id": "IC_kwDOAToIks7-2KZ4",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-19T09:33:09Z",
+        "updated_at": "2026-04-19T09:33:09Z",
+        "body": "Unit test has been added.  If it has been done incorrectly, please let me know and I will be glad to fix it up.",
+        "reactions": {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes/issues/comments/4275611256/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:33:09Z",
+    "org": {
+      "id": 13629408,
+      "login": "kubernetes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kubernetes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13629408?"
+    }
+  },
+  {
+    "id": "10764319287",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1210659981,
+      "name": "gregkh/kubernetes",
+      "url": "https://api.github.com/repos/gregkh/kubernetes"
+    },
+    "payload": {
+      "repository_id": 1210659981,
+      "push_id": 33056156280,
+      "ref": "refs/heads/kubelet-empty-log-path-fix",
+      "head": "89ceb3647cace659ad38029d01f68c510619c3cd",
+      "before": "cdea6173aa93b09f487271cb0b6b38eecb9bd7ea"
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:32:22Z"
+  },
+  {
+    "id": "10764310301",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1210659981,
+      "name": "gregkh/kubernetes",
+      "url": "https://api.github.com/repos/gregkh/kubernetes"
+    },
+    "payload": {
+      "repository_id": 1210659981,
+      "push_id": 33056147262,
+      "ref": "refs/heads/master",
+      "head": "03779bbd00da25c7fcd03711ddfe466a3322e1d7",
+      "before": "eb51fbf7c6de0e361504729feabdadd178cd2b7b"
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:31:54Z"
+  },
+  {
+    "id": "8567888153",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 22266795,
+      "name": "ljharb/qs",
+      "url": "https://api.github.com/repos/ljharb/qs"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/ljharb/qs/issues/551",
+        "repository_url": "https://api.github.com/repos/ljharb/qs",
+        "labels_url": "https://api.github.com/repos/ljharb/qs/issues/551/labels{/name}",
+        "comments_url": "https://api.github.com/repos/ljharb/qs/issues/551/comments",
+        "events_url": "https://api.github.com/repos/ljharb/qs/issues/551/events",
+        "html_url": "https://github.com/ljharb/qs/pull/551",
+        "id": 4252603866,
+        "node_id": "PR_kwDOAVPDq87R6WRL",
+        "number": 551,
+        "title": "[Fix] `stringify`: skip null/undefined filter-array entries instead of crashing in `encoder`",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 626829722,
+            "node_id": "MDU6TGFiZWw2MjY4Mjk3MjI=",
+            "url": "https://api.github.com/repos/ljharb/qs/labels/stringify",
+            "name": "stringify",
+            "color": "f9d0c4",
+            "default": false,
+            "description": null
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2026-04-13T08:20:11Z",
+        "updated_at": "2026-04-22T22:53:51Z",
+        "closed_at": null,
+        "assignee": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/ljharb/qs/pulls/551",
+          "html_url": "https://github.com/ljharb/qs/pull/551",
+          "diff_url": "https://github.com/ljharb/qs/pull/551.diff",
+          "patch_url": "https://github.com/ljharb/qs/pull/551.patch",
+          "merged_at": null
+        },
+        "body": "When `filter` is an array, its elements become `objKeys` directly and the top-level loop passes each entry as the recursive `prefix` argument without coercion.  A `null` or `undefined` entry reached `utils.encode` as the `str` argument and `str.length` threw `TypeError`.\r\n\r\nThe crash requires two conditions to align: the filter array must contain `null`/`undefined`, and the object being stringified must have a literal `'null'`/`'undefined'` property (otherwise `obj[key]` is `undefined` and the typeof-undefined early-return at stringify.js:137 fires before the encoder is called).  Both are reachable from an attacker controlled input in applications that stringify user-submitted JSON with user-selected fields.\r\n\r\nFix this up by skipping `null`/`undefined` filter entries at the top-level loop.  This matches `JSON.stringify` replacer-array semantics, which silently ignore non-string/non-number entries.  `Object.keys` never yields `null`/`undefined`, so the guard only affects user-supplied filter arrays.  The inner recursive loop already coerces `key` via `String()` when building `keyPrefix`, so it never passes a raw `null` to the encoder.",
+        "reactions": {
+          "url": "https://api.github.com/repos/ljharb/qs/issues/551/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/ljharb/qs/issues/551/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/ljharb/qs/issues/comments/4275587034",
+        "html_url": "https://github.com/ljharb/qs/pull/551#issuecomment-4275587034",
+        "issue_url": "https://api.github.com/repos/ljharb/qs/issues/551",
+        "id": 4275587034,
+        "node_id": "IC_kwDOAVPDq87-2Efa",
+        "user": {
+          "login": "gregkh",
+          "id": 14953,
+          "node_id": "MDQ6VXNlcjE0OTUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gregkh",
+          "html_url": "https://github.com/gregkh",
+          "followers_url": "https://api.github.com/users/gregkh/followers",
+          "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+          "organizations_url": "https://api.github.com/users/gregkh/orgs",
+          "repos_url": "https://api.github.com/users/gregkh/repos",
+          "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gregkh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-04-19T09:18:25Z",
+        "updated_at": "2026-04-19T09:18:25Z",
+        "body": "Regression test added, thanks for reminding me!",
+        "reactions": {
+          "url": "https://api.github.com/repos/ljharb/qs/issues/comments/4275587034/reactions",
+          "total_count": 1,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 1,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:18:25Z"
+  },
+  {
+    "id": "10764052340",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 1209228459,
+      "name": "gregkh/qs",
+      "url": "https://api.github.com/repos/gregkh/qs"
+    },
+    "payload": {
+      "repository_id": 1209228459,
+      "push_id": 33055889413,
+      "ref": "refs/heads/stringify-skip-null",
+      "head": "89913af9067108e49d1879e7a3c942a6f342fd47",
+      "before": "f336523c7bfa629f3bbbc4e93c2ae4ce66dfdc7c"
+    },
+    "public": true,
+    "created_at": "2026-04-19T09:17:39Z"
+  },
+  {
+    "id": "10763360449",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14953,
+      "login": "gregkh",
+      "display_login": "gregkh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?"
+    },
+    "repo": {
+      "id": 188048729,
+      "name": "gregkh/linux",
+      "url": "https://api.github.com/repos/gregkh/linux"
+    },
+    "payload": {
+      "ref": "linux-7.0.y",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/linux-7.0.y",
+      "master_branch": "master",
+      "description": "Linux kernel stable tree mirror",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-19T08:40:06Z"
+  }
+]
